@@ -1,0 +1,24 @@
+{
+  "originHash" : "e1a23a798117a46b3718cd3f4276c4033963929aa45d2400b82ca653151794a9",
+  "pins" : [
+    {
+      "identity" : "adsglobalpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
+      "state" : {
+        "revision" : "74e0dae1916622d78ffa1503ea45a568aea6b303",
+        "version" : "7.1.1-release.1"
+      }
+    },
+    {
+      "identity" : "ios-ssp-mediation-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
+      "state" : {
+        "revision" : "d746f523b89f4bbdd05a2f9339416f30ee61f275",
+        "version" : "2.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}

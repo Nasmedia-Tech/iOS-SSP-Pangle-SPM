@@ -36,10 +36,7 @@ let package = Package(
                 .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
                 .product(name: "AdMixerMediation", package: "ios-ssp-mediation-spm")
             ],
-            path: "Sources/iOS-SSP-Pangle-SPM",
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"], .when(platforms: [.iOS]))
-            ]
+            path: "Sources/iOS-SSP-Pangle-SPM"
         )
     ]
 )

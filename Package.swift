@@ -15,19 +15,19 @@ let package = Package(
         // Pangle SDK
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage.git",
-            "7.4.1-release.1"..<"7.6.0-release.7"
+            "7.4.1-release.1"..<"7.9.0-release.7"
         ),
         // SSP AdMixerMediation SDK
         .package(
             url: "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
-            from: "2.1.7"
+            from: "2.1.8"
         )
     ],
     targets: [
         .binaryTarget(
             name: "AdMixerMediationPangleBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationPangle1.0.4-be.xcframework.zip",
-            checksum: "d5e52a72d1f07a07d281d6b537ea844888bd8c8fd42e3915a862a964ec39fb3f"
+            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationPangle1.0.4.xcframework.zip",
+            checksum: "127c6ee569f27ce2bf4fe5bba773c5a85b519ac36bb2626b2c22c7f73a7eea06"
         ),
         .target(
             name: "iOS_SSP_Pangle_SPM",

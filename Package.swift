@@ -26,8 +26,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdMixerMediationPangleBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-SSP-Pangle-SPM/releases/download/1.2.1/AdMixerMediationPangle1.2.1.xcframework.zip",
-            checksum: "fdedcefa0326c8afba199953a01dc7e7a1a2ff8a56d9073bbca06673391b7536"
+            url: "https://github.com/Nasmedia-Tech/iOS-SSP-Pangle-SPM/releases/download/1.2.2/AdMixerMediationPangle1.2.2.xcframework.zip",
+            checksum: "a31b19d25533bbe2dd857ddf4271367b8212a79550d1d76d411f2646c872a7f7"
         ),
         .target(
             name: "iOS_SSP_Pangle_SPM",

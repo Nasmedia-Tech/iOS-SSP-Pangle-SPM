@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
       "state" : {
-        "revision" : "6989ba4df86b4c378b727dff11b59f3cebe121d3",
-        "version" : "2.1.8"
+        "revision" : "7dbf334b985ac1e335740cab073feeed3dce3628",
+        "version" : "2.4.2"
       }
     }
   ],

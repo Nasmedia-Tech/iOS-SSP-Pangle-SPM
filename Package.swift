@@ -15,7 +15,7 @@ let package = Package(
         // Pangle SDK
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage.git",
-            "7.4.1-release.1"..<"7.9.0-release.7"
+            "7.4.1-release.1"..<"8.1.1-release.2"
         ),
         // SSP AdMixerMediation SDK
         .package(

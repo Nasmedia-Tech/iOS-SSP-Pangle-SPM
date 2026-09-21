@@ -20,14 +20,14 @@ let package = Package(
         // SSP AdMixerMediation SDK
         .package(
             url: "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
-            from: "2.4.5"
+            from: "2.5.0"
         )
     ],
     targets: [
         .binaryTarget(
             name: "AdMixerMediationPangleBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-SSP-Pangle-SPM/releases/download/1.2.5/AdMixerMediationPangle1.2.5.xcframework.zip",
-            checksum: "7580a3e70c2cd623a58b99f4f5c8e623bc2e689aec1489a5c24c1e780355f274"
+            url: "https://github.com/Nasmedia-Tech/iOS-SSP-Pangle-SPM/releases/download/1.2.6/AdMixerMediationPangle1.2.6.xcframework.zip",
+            checksum: "e64f5bc1bf0fa2825898a8bf66b1d83a10a47fd83ee8c82af8dfa695b6ac5e9d"
         ),
         .target(
             name: "iOS_SSP_Pangle_SPM",
